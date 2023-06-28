@@ -3,7 +3,7 @@ def common_characters(string_1, string_2):
     for character in string_1:
         if character in string_2:
             common_characters.append(character)
-    print(f"Common letters: {','.join(common_characters)}")
+    print(f"Common letters: {', '.join(common_characters)}")
 
 
 if __name__ == "__main__":

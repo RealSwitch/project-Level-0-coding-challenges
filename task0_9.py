@@ -4,7 +4,7 @@ def vowels_in_the_string(string):
     for character in string.lower():
         if character in vowels and character not in vowels_in_string:
             vowels_in_string.append(character)
-    print(f"Vowels: {','.join(vowels_in_string)}")
+    print(f"Vowels: {', '.join(vowels_in_string)}")
 
 
 if __name__ == "__main__":
